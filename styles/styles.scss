@@ -1,0 +1,32 @@
+*{
+    padding:0px;
+    margin: 0px;
+   
+    
+}
+
+html,
+body {
+    background-color: rgb(173, 197, 220);
+  display: grid;
+  grid-template-columns: 1fr;
+   
+}
+
+.container {
+    border: 10px solid black;
+    display: grid;
+    grid-template-columns: 1fr;
+   
+    
+}
+   div {
+    border: 5px solid red;
+    display: grid;
+    grid-template-columns: 1fr;
+
+   }
+button {
+    border-radius: 100px;
+    background: linear-gradient(90deg, red, blue, green,orange,yellow,purple);
+}
